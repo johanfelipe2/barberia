@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería El Estilo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Barbería El Estilo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+        <div class="container">
+            <h2>Bienvenidos a la Barbería El Estilo</h2>
+            <p>En nuestra barbería, ofrecemos cortes de cabello, afeitados y tratamientos de alta calidad. Ven y experimenta un ambiente moderno y relajado, con un toque clásico.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <ul>
+                <li><strong>Corte de Cabello:</strong> A medida, con los mejores estilos.</li>
+                <li><strong>Afeitado:</strong> Afeitado tradicional con navaja.</li>
+                <li><strong>Barba:</strong> Recorte y arreglo profesional de barba.</li>
+                <li><strong>Tratamientos:</strong> Hidratación y cuidado del cabello.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section id="galeria">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="galeria-imagenes">
+                <img src="cortedecabellomoderno.jpg" alt="Corte de cabello estilo moderno">
+                <img src="cortenavaja.jpg" alt="Afeitado con navaja">
+                <img src="recortedebarba.jpg" alt="Recorte de barba profesional">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabla de Precios -->
+    <section id="precios">
+        <div class="container">
+            <h2>Precios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Corte de Cabello</td>
+                        <td>$15000</td>
+                    </tr>
+                    <tr>
+                        <td>Afeitado</td>
+                        <td>$10000</td>
+                    </tr>
+                    <tr>
+                        <td>Recorte de Barba</td>
+                        <td>$8000</td>
+                    </tr>
+                    <tr>
+                        <td>Tratamiento Capilar</td>
+                        <td>$12000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="/enviarFormulario" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Barbería El Estilo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
